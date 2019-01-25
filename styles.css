@@ -132,6 +132,11 @@ footer {
 
 /* medium */
 @media (min-width: 576px) {
+  
+  .container {
+    width: 960px;
+  }
+    
   .feature {
     display: inline-block;
   }
