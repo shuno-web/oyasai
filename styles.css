@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+
+/* small */
+
+body {
+  margin: 0;
+  font-size: 18px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 24px;
+  font-size: 2em;
+  font-weight: normal;
+  color: #ff79a5;
+  font-family: cursive;
+}
+
+h2 {
+  text-align: center;
+}
+
+button {
+  height: 48px;
+  background: #007bff;
+  border-radius: 5px;
+  font-size: 1em;
+  color: #fff;
+  transition: 0.6s;
+}
+
+button:hover {
+  background: #006bff;
+}
+
+img {
+  width: 100%;
+}
+
+/* header */
+
+header {
+  height: 144px;
+  padding: 48px;
+  background-image: url(img/bgvege.jpeg);
+  background-size: cover;
+  text-align: center;
+}
+
+/* features */
+.features {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+/* plans */
+.plans {
+  background: #f8f9fa;
+  padding: 12px;
+}
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th, td {
+  padding: 4px 64px;
+  border-top: 1px solid #e4e5e6;
+  border-bottom: 1px solid #e4e5e6;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+th {
+  border-bottom: 2px solid #e4e5e6;
+}
+
+
+tbody tr:hover {
+  background: #e4e5e6;
+}
+
+
+.plan {
+  margin: 0 auto;
+}
+
+/* How to Use */
+ul {
+  margin: 0px;
+}
+
+li.how-li {
+  list-style :none;
+  display: inline-block;
+
+  padding: 4px 8px;
+  border: 1px solid #e4e5e6;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+a.how-a {
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
+/* GetItNow */
+.get {
+  background: #f8f9fa;
+  padding: 48px;
+  text-align: center;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  padding: 24px;
+}
+
+/* medium */
+@media (min-width: 576px) {
+  .feature {
+    display: inline-block;
+  }
+
+  .feature:nth-of-type(odd) .feature-desc {
+    width: 50%;
+    float: left;
+  }
+
+  .feature:nth-of-type(odd) .feature-img {
+    width: 40%;
+    float: right;
+  }
+
+  .feature:nth-of-type(even) .feature-desc {
+    width: 50%;
+    float: right;
+  }
+
+  .feature:nth-of-type(even) .feature-img {
+    width: 40%;
+    float: left;
+  }
+}
