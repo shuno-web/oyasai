@@ -132,11 +132,41 @@ footer {
 
 /* medium */
 @media (min-width: 576px) {
-  
   .container {
-    width: 960px;
+    width: 100％;
   }
-    
+
+  .feature {
+    display: inline-block;
+  }
+
+  .feature:nth-of-type(odd) .feature-desc {
+    width: 50%;
+    float: left;
+  }
+
+  .feature:nth-of-type(odd) .feature-img {
+    width: 40%;
+    float: right;
+  }
+
+  .feature:nth-of-type(even) .feature-desc {
+    width: 50%;
+    float: right;
+  }
+
+  .feature:nth-of-type(even) .feature-img {
+    width: 40%;
+    float: left;
+  }
+}
+
+/* large */
+@media (min-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
   .feature {
     display: inline-block;
   }
